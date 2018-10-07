@@ -30,7 +30,7 @@
 
 <script type="text/javascript">
 	function changeHeaderBg(){
-		var random_bg = Math.floor(Math.random() * <%= theme.bg_image_count %> + 1);
+		var random_bg = Math.floor(Math.random() * <%= theme.bg_image_count%> + 1);
 		var bg = 'url(<%= theme.background_image.customRadom_url %>' + random_bg + '.jpg)';
 		$("#header-bg-2").css("background-image", bg);
 	}
